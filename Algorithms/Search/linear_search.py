@@ -21,4 +21,6 @@ def validate(index):
 
 numbers = [2,4,6,7,8,13]
 result = linear_search(numbers, 7)
+result2 = linear_search(numbers, 5)
 validate(result)
+validate(result2)
